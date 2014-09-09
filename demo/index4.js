@@ -59,3 +59,8 @@ function longLat(geojson) {
     geojson.geometry.coordinates[0]
   ]
 }
+
+// smooth updates: thanks @mourner https://twitter.com/LeafletJS/status/509463289156612096
+var style = document.createElement('style')
+style.textContent = '.leaflet-marker-icon, .leaflet-marker-shadow { -webkit-transition: all 0.2s; transition: all 0.2s; }'
+document.querySelector('body').appendChild(style)
