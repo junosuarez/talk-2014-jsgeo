@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "beefy index4.js -o",
+    "1": "beefy index1.js -o",
+    "2": "beefy index2.js -o",
+    "3": "beefy index3.js -o",
+    "4": "beefy index4.js -o"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jden",
+  "license": "CC-0",
   "dependencies": {
     "leaflet-map": "^0.2.1",
-    "leaflet": "^0.7.3",
+    "leaflet": "^0.7.3"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
     "browserify": "^5.11.1"
   }
 }
